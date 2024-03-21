@@ -1,22 +1,20 @@
 .table {
   margin: 0 auto;
   margin-top: 32px;
-  border: 2px solid black;
-  background-color: black;
+  background-color: #000000;
   width: 768px;
   font-size: 20px;
 }
 .tableHead {
-  background-color: rgb(0, 0, 0);
-  color: whitesmoke;
+  color: #f5f5f5;
 }
 .tableItem {
   border: 2px solid black;
   text-transform: capitalize;
 }
 .tableItem:nth-child(even) {
-  background-color: rgb(193, 190, 190);
+  background-color: rgb(184, 183, 183);
 }
 .tableItem:nth-child(odd) {
-  background-color: whitesmoke;
+  background-color: #f5f5f5;
 }

@@ -1,45 +1,54 @@
 .profile {
-  border: 4px solid black;
+  border: 3px solid #000000;
   border-radius: 8px;
-  background-color: rgb(247, 248, 247);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   padding-top: 24px;
-  max-width: 680px;
+  max-width: 700px;
   margin: 0 auto;
+  overflow: hidden;
 }
 .profileImg {
   border-radius: 50%;
-  background-color: rgb(40, 38, 38);
+  background-color: rgb(56, 56, 56);
+  width: 300px;
   margin: 0 auto;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
 }
 .profileName {
   font-weight: 700;
   font-size: 48px;
 }
 .profileTag {
-  font-weight: 500;
-  color: rgb(128, 125, 125);
+  font-weight: 400;
+  color: rgb(129, 129, 129);
+  font-size: 48px;
+}
+
+.profileLocation {
+  font-weight: 400;
+  color: rgb(129, 129, 129);
   font-size: 48px;
 }
 .profileStatsList {
   display: flex;
   flex-direction: row;
   gap: 12px;
-  border-top: 4px solid rgb(128, 125, 125);
-  background-color: #e3dbdb;
+  border-top: 3px solid rgb(129, 129, 129);
+  background-color: #9b9898ec;
 }
 .profileStatsItem {
   display: flex;
   flex-direction: column;
   padding: 12px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 40px;
   width: calc((100% - 24px) / 3);
-  border-left: 4px solid rgb(128, 125, 125);
+  border-left: 3px solid rgb(129, 129, 129);
 }
 .profileStatsItem:first-child {
   border: none;
 }
 .profileStatsItemSpan {
-  font-weight: 700;
+  font-weight: 600;
 }

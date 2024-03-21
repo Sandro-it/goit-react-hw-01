@@ -1,13 +1,8 @@
-.FriendList {
+.friendList {
   margin: 0 auto;
   margin-top: 32px;
-  /* display: flex; */
-  /* flex-direction: row;
-  justify-content: center; */
-}
-
-.FriendListItem {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   gap: 12px;
 }

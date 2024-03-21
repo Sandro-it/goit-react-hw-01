@@ -1,15 +1,3 @@
-/* body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-} */
-
-/*===================================================*/
-
-/* @import-normalize; */
-
 body {
   font-family: "DM Sans", sans-serif;
   line-height: 1.5;

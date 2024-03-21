@@ -1,4 +1,4 @@
-.FriendListContainer {
+.friendListCard {
   border: 2px solid black;
   border-radius: 8px;
   width: 120px;
@@ -6,26 +6,25 @@
   padding: 16px 0;
 }
 
-.FriendListImg {
+.friendListImg {
   margin: 0 auto;
   margin-bottom: 8px;
 }
 
-.FriendListName {
+.friendListName {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 500;
   margin-bottom: 8px;
 }
 
-.FriendListStatus {
-  font-size: 28px;
+.Online {
+  color: green;
+  font-size: 20px;
   font-weight: 400;
 }
 
-.onLine {
-  color: green;
-}
-
-.offLine {
+.Offline {
   color: red;
+  font-size: 20px;
+  font-weight: 400;
 }
